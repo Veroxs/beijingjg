@@ -1,0 +1,591 @@
+.navbar-brand img{
+    max-width: 15.5em;
+    margin-top: .1em;
+}
+.main-content-c{
+    position: relative;
+}
+/* .main-content-c:before{
+    content:'';
+    position: absolute;
+    display: inline-block;
+    width: 57px;
+    height: 122px;
+    background: url(../img/main-content-l.png) no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    left: -20px;
+    top: 0;
+    z-index: -1;
+}
+.main-content-c:after{
+    content:'';
+    position: absolute;
+    display: inline-block;
+    width: 57px;
+    height: 122px;
+    background: url(../img/main-content-r.png) no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    right: -20px;
+    top: 0;
+     z-index: -1;
+} */
+.breadcrumb-wrap{
+    border-bottom: 1px solid #eee;
+    font-size: .9em;
+}
+.breadcrumb{
+    background: #fff;
+    border-radius: 0;
+    padding: 8px 2px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.breadcrumb a{
+    color: #777;
+}
+.breadcrumb .img-icon{
+    width: 14px;
+    height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.breadcrumb-wrap .tab-wrap{
+    float: right;
+    margin-bottom: 0;
+}
+.breadcrumb-wrap .tab-wrap .tab-item{
+    display: inline-block;
+    padding: 8px 6px 8px 6px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.breadcrumb-wrap .tab-wrap .tab-item.active{
+    border-bottom: 2px solid #eb3365;
+    color: #0051a3;
+}
+/* 首页-关于我们 */
+.page-index {
+    background: #f5f5f5;
+}
+.page-index .about-us .about-cover{
+    position: relative;
+    background-color: #003a93;
+    height: 390px;
+    padding: 20px 25px;
+}
+.page-index .about-us .about-cover .aboutimg {
+    display: inline-block;
+    margin-right: 15px;
+}
+.page-index .about-us .about-cover .aboutimg img{
+    margin-top: -32px;
+}
+.page-index .about-us .about-cover .abouttxt {
+    margin-top: 15px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1
+}
+.page-index .about-us .about-cover .abouttxt .p1{
+    font-size: 20px;
+}
+.page-index .about-us .about-cover .abouttxt .p2{
+    font-size: 16px;
+    margin-top: -5px
+}
+.page-index .about-us .about-cover .bgline {
+    width: 2px;
+    height: 115px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 95px;
+    left: 25px;
+}
+.page-index .about-us .about-cover .hengline {
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 275px;
+    left: 25px;
+}
+.page-index .about-us .about-cover .bottomtxt {
+    position: absolute;
+    bottom: 75px;
+    left: 25px;
+    color: #FFF;
+}
+ .page-index .about-us .about-cover .enginee {
+    position: absolute;
+    bottom: 45px;
+    left: 25px;
+    font-size: 10px;
+    color: #FFF;
+}
+.page-index .about-us .about-intro{
+    padding-top: 15px;
+    background-image: url(../img/aboutus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding-left: 2%;
+}
+.page-index .about-us .about-intro-box{
+    margin-top: 56px;
+    overflow: hidden;
+    padding: 15px 20px;
+    max-width: 490px;
+
+}
+.page-index .about-us .about-intro h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    margin-top: 5px;
+
+}
+.page-index .about-us .about-intro p {
+    color: #333;
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: 0.13px;
+    line-height: 26px;
+    margin-bottom: 12px;
+    max-height: 136px;
+
+}
+.page-index .about-us .about-intro .btn{
+    border: 2px solid #dfd8c8;
+    color: #444;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.12px;
+    line-height: 36px;
+    padding: 0 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    float: right;
+}
+.page-index .counter-section{
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    min-height: 20em;
+}
+.page-index .counter-section h3{
+    font-size: 31px;
+}
+.page-index .counter-section p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+.page-index .counter-section.couter2{
+    background-image: url(../img/video.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-index .project-section .project-cover{
+    position: relative;
+    background-color: #003a93;
+    height: 390px;
+}
+.page-index .project-section .project-cover .aboutimg {
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+}
+.page-index .project-section .project-cover .aboutimg img{
+    margin-top: 20px;
+}
+.page-index .project-section .project-cover .abouttxt {
+    margin-top: 15px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 25px;
+    width: 60%;
+    text-align: right;
+}
+.page-index .project-section .project-cover .abouttxt .p1{
+    font-size: 20px;
+}
+.page-index .project-section .project-cover .abouttxt .p2{
+    font-size: 16px;
+    margin-top: -5px;
+}
+.page-index .project-section .project-cover .bgline {
+    width: 2px;
+    height: 115px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    right: 30px;
+}
+.page-index .project-section .project-cover .hengline {
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    left: 25px;
+}
+.page-index .project-section .project-cover .bottomtxt {
+    position: absolute;
+    bottom: 62px;
+    left: 25px;
+    color: #FFF;
+}
+.page-index .project-section .project-cover .enginee {
+    position: absolute;
+    bottom: 38px;
+    left: 25px;
+    font-size: 10px;
+    color: #FFF;
+}
+.page-index .project-section .project-list{
+    padding-top: 80px;
+}
+.page-index .project-section .project-list .project-item{
+    height: 240px;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 22px;
+}
+.page-index .project-section .project-list .project-item.img-item{
+    padding: 0;
+} 
+.page-index .project-section .project-list .project-item img{
+    width: 100%;
+    height: auto;
+}
+.page-index .project-section .project-list .project-item h5{
+    font-size: 16px;
+    padding-top: 60px;
+    color: #333;
+}
+.page-index .project-section .project-list .project-item p{
+    font-size: 12px;
+    line-height: 2;
+    color: #666;
+}
+.page-index .news-section .news-cover{
+    position: relative;
+    background-color: #003a93;
+    height: 390px;
+    margin-top: -100px;
+}
+.page-index .news-section .news-cover .aboutimg {
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+}
+.page-index .news-section .news-cover .aboutimg img{
+    margin-top: 20px;
+}
+.page-index .news-section .news-cover .abouttxt {
+    margin-top: 15px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 25px;
+    width: 60%;
+    text-align: right;
+}
+.page-index .news-section .news-cover .abouttxt .p1{
+    font-size: 20px;
+}
+.page-index .news-section .news-cover .abouttxt .p2{
+    font-size: 16px;
+    margin-top: -5px;
+}
+.page-index .news-section .news-cover .bgline {
+    width: 2px;
+    height: 115px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    right: 30px;
+}
+.page-index .news-section .news-cover .hengline {
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    left: 25px;
+}
+.page-index .news-section .news-cover .bottomtxt {
+    position: absolute;
+    bottom: 62px;
+    left: 25px;
+    color: #FFF;
+}
+.page-index .news-section .news-cover .enginee {
+    position: absolute;
+    bottom: 38px;
+    left: 25px;
+    font-size: 10px;
+    color: #FFF;
+}
+.page-index .news-section .news-list .news-item{
+    margin-right: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-left: -40px;
+    background-color: #f1f1f1;
+}
+.page-index .news-section .news-list .news-item a{
+    display: block;
+}
+.page-index .news-section .news-item a:hover .date,.page-index .news-section .news-item a:hover .text1,.page-index .news-section .news-item a:hover .text2{
+    color: #003a93;
+}
+.page-index .news-section .news-item a:hover .lnumber{
+    background: #003a93;
+}
+.page-index .news-section .news-item a:hover .lnumber p{
+    color: #fff;
+}
+.page-index .news-section .news-item p{
+    margin: 0;
+}
+.page-index .news-section .news-item .lnumber {
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+.page-index .news-section .news-item .lnumber p {
+    width: 100%;
+    color: #ccc;
+    height: 80px;
+    line-height: 80px;
+    font-size: 36px;
+    text-align: center;
+}
+.page-index .news-section .news-item .rwenzi {
+    height: 100px;
+    float: left;
+    padding-left: 4%;
+    width: 76%;
+}
+.page-index .news-section .news-item .rwenzi .date {
+    padding-top: 16px;
+    font-size: 12px;
+    color: #464646;
+}
+.page-index .news-section .news-item .rwenzi .text1 {
+    color: #585858;
+    font-size: 15px;
+    margin-top: 8px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.page-index .news-section .news-item .rwenzi .text2 {
+    color: #9f9f9f;
+    font-size: 12px;
+    margin-top: 8px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.page-index .news-section .news-img-content{
+    height: 360px;
+    overflow: hidden;
+}
+.page-index .news-section .news-img-content img{
+    width: 100%;
+    height: 100%;
+}
+.page-index .news-section .news-img-content .content{
+    padding: 15px 20px 5px 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+}
+.page-index .news-section .news-img-content h5 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.page-index .news-section .news-img-content p{
+    color: #9f9f9f;
+    font-size: 12px;
+}
+
+/* 工程案例 */
+.main-content-c .content-box{
+    margin-top: -7.6em;
+    padding: 2em;
+    background: #fff;
+}
+.project-list{
+    padding: 2em 1em;
+}
+.project-banner{
+    width: 100%;
+    height: 13em;
+    background: url(../img/projectList-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.project-banner .title{
+    line-height: 10em;
+    width: 28%;
+    padding: 0 2%;
+    color: #fff;
+    background: rgba(0,0,0,.3)
+}
+.project-banner .title span{
+    font-size: 2.4em;
+}
+.page-project-list .project-list .project-item{
+    margin-bottom: 1em;
+}
+.page-project-list .project-list .project-item .img-box{
+    width: 100%;
+    height: 168px;
+}
+.page-project-list .project-list .project-item .img-box img{
+    width: 100%;
+    height: 100%;
+}
+.page-project-list .project-list .project-item .text{
+    padding: 10px 0;
+    text-align: center;
+}
+/* 工程详情 */
+.page-project-detail .project-detail h3{
+    padding: 1.6em 2px 0.6em 2px;
+    font-size: 16px;
+}
+.page-project-detail .project-detail h5{
+    height: 2.8em;
+    line-height: 2.8em;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+.page-project-detail .project-detail p {
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+/* 关于我们 */
+.page-about .company-about{
+    padding-top: 3em;
+}
+.page-about .company-about .intro-text{
+    padding: 2em 0;
+    min-height: 320px;
+    border-bottom: 1px solid #ccc;
+}
+.page-about .company-about .intro-text h2{
+    font-size: 28px;
+    padding: .6em 0 .2em 0;
+    color: #6d6d6d;
+}
+.page-about .company-about .intro-text p{
+    font-size: 14px;
+    color: #555;
+    line-height: 2;
+    color: #a7a7a7;
+}
+.page-about .company-about .intro-img{
+
+}
+/* 联系我们 */
+.page-contact .contact-section{
+    padding: 60px 20px 20px 20px;
+}
+.page-contact .contact-section .contact-box{
+    padding: 15px;
+    background: #eff4fc;
+}
+.page-contact .contact-section .contact-text{
+    background: #fff url('../img/contact-bg.png') no-repeat;
+    background-position: right center;
+}
+.page-contact .contact-section .contact-text .title{
+    padding: 2em 1em 1.2em 0;
+    color: #3470b6;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    width: 68%;
+}
+.page-contact .contact-section .contact-text p{
+    margin-top: 1em;
+    color: #424242;
+    font-size: 13px;
+}
+.page-contact .contact-section .contact-img img{
+    width: 100%;
+}
+/* 人才 */
+.page-personnel .personnel-section{
+    padding: 60px 0 20px 0;
+}
+
+/* 荣誉 */
+.honor-list{
+    padding: 2em 1em;
+}
+.honor-banner{
+    width: 100%;
+    height: 13em;
+    background: url(../img/projectList-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.honor-banner .title{
+    line-height: 10em;
+    width: 28%;
+    padding: 0 2%;
+    color: #fff;
+    background: rgba(0,0,0,.3)
+}
+.honor-banner .title span{
+    font-size: 2.4em;
+}
+.page-honor-list .honor-list .honor-item{
+    margin-bottom: 1em;
+}
+.page-honor-list .honor-list .honor-item .img-box{
+    width: 100%;
+    height: 168px;
+}
+.page-honor-list .honor-list .honor-item .img-box img{
+    width: 100%;
+    height: 100%;
+}
+.page-honor-list .honor-list .honor-item .text{
+    padding: 10px 0;
+    text-align: center;
+}
